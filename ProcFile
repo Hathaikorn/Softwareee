@@ -1,2 +1,2 @@
-web: python manage.py runserver softwareee.wsgi --log-file -
+web: gunicorn softwareee.wsgi --log-file -
 
