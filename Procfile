@@ -1,2 +1,2 @@
-web: gunicorn softwareee.wsgi --log-file -
+web: gunicorn manage.wsgi --log-file -
 
