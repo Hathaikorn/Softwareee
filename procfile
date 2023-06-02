@@ -1,3 +1,3 @@
 web: gunicorn softwaree.wsgi--log-file -
-web: python manage.py runserver
+
 
